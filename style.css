@@ -19,8 +19,28 @@ body {
     margin-top: -10px;
 }
 
+.header nav {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.header nav a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 1% 5% 1% 1%;
+}
+
 .stats-container {
     display: flex;
+    align-items: center;
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
